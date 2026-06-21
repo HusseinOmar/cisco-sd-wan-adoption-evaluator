@@ -198,7 +198,4 @@ Software is provided **"AS IS"**, without warranties or conditions of any kind, 
 
 ## Author
 
-**Hussein Omar** — CSS, EMEA
-📧 husseino@cisco.com
-
-*Copyright (c) Cisco and/or its affiliates.*
+**Hussein Omar** — CSS, EMEA husseino@cisco.com
