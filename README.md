@@ -94,6 +94,7 @@ The result is a human-readable report that highlights what is **COMPLETED**, **I
    ```bash
    python -m venv venv
    source venv/bin/activate      # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
    ```
 
 3. Ensure `vAPI.py` is present and configured for your environment.
@@ -103,8 +104,6 @@ The result is a human-readable report that highlights what is **COMPLETED**, **I
 ## Configuration
 
 Authentication and connection details (host, username, password/token) are handled inside **`vAPI.py`**. Configure that module according to your environment before running the script.
-
-> ⚠️ **Do not hard-code credentials in source files committed to version control.** Use environment variables or a secrets manager.
 
 The `max_workers` value in the `parellel()` function is intentionally set to **30**. Per the in-code guidance, **do not increase this value**, as a higher concurrency may impact vManage performance.
 
