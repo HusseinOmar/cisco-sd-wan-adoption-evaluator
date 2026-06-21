@@ -85,8 +85,8 @@ The result is a human-readable report that highlights what is **COMPLETED**, **I
 1. Clone or copy the project files into a working directory.
 
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-directory>
+   git clone https://github.com/HusseinOmar/cisco-sd-wan-adoption-evaluator.git
+   cd cisco-sd-wan-adoption-evaluator
    ```
 
 2. (Recommended) Create and activate a virtual environment.
